@@ -14,6 +14,9 @@ public class CuentaCorriente {
     public void transaccionDeposito(double monto){
         saldo += monto;
     }
+    public void transaccionRetiro(double monto){
+        saldo -= monto;
+    }
     public String getNumeroCuenta() {
         return numeroCuenta;
     }

@@ -31,6 +31,10 @@ public class Cliente {
         cuentas[indice].transaccionDeposito(monto);
 
     }
+    public void retiro(int indice, double monto){
+        cuentas[indice].transaccionRetiro(monto);
+
+    }
     public void retiro(){
 
     }
