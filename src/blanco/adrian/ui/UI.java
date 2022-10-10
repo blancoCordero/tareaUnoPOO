@@ -1,3 +1,5 @@
+package blanco.adrian.ui;
+
 public class UI {
     public static void main(String[] args) {
         System.out.println("Hello world!");
