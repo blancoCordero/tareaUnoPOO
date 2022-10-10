@@ -27,7 +27,8 @@ public class Cliente {
         this.cuentas.add(new CuentaCorriente());
     }
 
-    public void deposito(){
+    public void deposito(int indice, double monto){
+        cuentas[indice].transaccionDeposito(monto);
 
     }
     public void retiro(){
